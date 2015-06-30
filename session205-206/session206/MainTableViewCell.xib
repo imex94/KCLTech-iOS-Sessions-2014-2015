@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="customCell" rowHeight="306" id="KGk-i7-Jjw" customClass="MainTableViewCell" customModule="session206" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="306"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yhD-Vg-AOo">
+                        <rect key="frame" x="6" y="16" width="308" height="283"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="UbX-WZ-9iq">
+                                <rect key="frame" x="8" y="9" width="55" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="OC9-MZ-XD3"/>
+                                    <constraint firstAttribute="width" constant="55" id="RXf-9z-2xA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Alex Telek shared KCL Tech Society's photo." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6K6-ff-ru5">
+                                <rect key="frame" x="71" y="9" width="229" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="gcN-mc-8Tx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6K6-ff-ru5" firstAttribute="top" secondItem="UbX-WZ-9iq" secondAttribute="top" id="2YI-26-6eU"/>
+                            <constraint firstItem="UbX-WZ-9iq" firstAttribute="top" secondItem="yhD-Vg-AOo" secondAttribute="topMargin" id="C94-We-gXL"/>
+                            <constraint firstItem="UbX-WZ-9iq" firstAttribute="leading" secondItem="yhD-Vg-AOo" secondAttribute="leadingMargin" id="Mb7-UI-P2f"/>
+                            <constraint firstItem="6K6-ff-ru5" firstAttribute="trailing" secondItem="yhD-Vg-AOo" secondAttribute="trailingMargin" id="ro5-Yb-bw0"/>
+                            <constraint firstItem="6K6-ff-ru5" firstAttribute="leading" secondItem="UbX-WZ-9iq" secondAttribute="trailing" constant="8" symbolic="YES" id="uaD-DB-xKz"/>
+                        </constraints>
+                    </view>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="share" translatesAutoresizingMaskIntoConstraints="NO" id="UX2-oY-Zhm">
+                        <rect key="frame" x="2" y="93" width="315" height="193"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.87858252762430944" green="0.87858252762430944" blue="0.87858252762430944" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="yhD-Vg-AOo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-2" id="1r4-DB-1nh"/>
+                    <constraint firstItem="yhD-Vg-AOo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="7" id="7x7-zO-fip"/>
+                    <constraint firstItem="UX2-oY-Zhm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-6" id="84n-8q-X3K"/>
+                    <constraint firstItem="yhD-Vg-AOo" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="DLA-EC-Bsf"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="yhD-Vg-AOo" secondAttribute="bottom" constant="-1" id="mxK-N6-DYv"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="UX2-oY-Zhm" secondAttribute="bottom" constant="11" id="q5H-n8-XRv"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="UX2-oY-Zhm" secondAttribute="trailing" constant="-5" id="rdc-NX-oPv"/>
+                    <constraint firstItem="UX2-oY-Zhm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="85" id="vnC-yT-QWT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailsView" destination="yhD-Vg-AOo" id="hTn-lY-PJR"/>
+                <outlet property="messageImage" destination="UX2-oY-Zhm" id="01r-Oa-T23"/>
+            </connections>
+            <point key="canvasLocation" x="404" y="345"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="profile" width="360" height="360"/>
+        <image name="share" width="1024" height="642"/>
+    </resources>
+</document>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="session207" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6RN-J4-Dur">
+                                <rect key="frame" x="180" y="180" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="u4T-Ci-qCc"/>
+                                    <constraint firstAttribute="height" constant="240" id="uzX-8B-iD7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4za-cy-9zA">
+                                <rect key="frame" x="165" y="448" width="270" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="biw-TO-V0H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4za-cy-9zA" firstAttribute="centerX" secondItem="6RN-J4-Dur" secondAttribute="centerX" id="PPO-K2-bdk"/>
+                            <constraint firstItem="6RN-J4-Dur" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eXY-kp-RQH"/>
+                            <constraint firstItem="4za-cy-9zA" firstAttribute="top" secondItem="6RN-J4-Dur" secondAttribute="bottom" constant="28" id="ygG-VK-shB"/>
+                            <constraint firstItem="6RN-J4-Dur" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ywQ-bh-kef"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="avatarImageView" destination="6RN-J4-Dur" id="W6J-eu-CwZ"/>
+                        <outlet property="nameLabel" destination="4za-cy-9zA" id="YY5-LO-Jpw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

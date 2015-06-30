@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B478BEC1AA1189A0085FB01 /* CoreBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B478BEB1AA1189A0085FB01 /* CoreBluetooth.swift */; };
+		2B478BEE1AA123910085FB01 /* MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B478BED1AA123910085FB01 /* MapKit.swift */; };
+		2B478BF01AA12A8A0085FB01 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B478BEF1AA12A8A0085FB01 /* Accounts.swift */; };
+		2B478BF21AA12AA60085FB01 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B478BF11AA12AA60085FB01 /* Accounts.framework */; };
+		2B478BF41AA12F6D0085FB01 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B478BF31AA12F6D0085FB01 /* Social.framework */; };
+		2B82708F1A9F7CC90083C88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82708E1A9F7CC90083C88E /* AppDelegate.swift */; };
+		2B8270911A9F7CC90083C88E /* AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8270901A9F7CC90083C88E /* AVFoundation.swift */; };
+		2B8270941A9F7CC90083C88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8270921A9F7CC90083C88E /* Main.storyboard */; };
+		2B8270961A9F7CC90083C88E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8270951A9F7CC90083C88E /* Images.xcassets */; };
+		2B8270991A9F7CC90083C88E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8270971A9F7CC90083C88E /* LaunchScreen.xib */; };
+		2B8270A51A9F7CC90083C88E /* HackLondonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8270A41A9F7CC90083C88E /* HackLondonTests.swift */; };
+		2B8270AF1A9F91280083C88E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8270AE1A9F91280083C88E /* AVFoundation.framework */; };
+		2B8270B11A9F917E0083C88E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8270B01A9F917E0083C88E /* CoreMotion.framework */; };
+		2B8270B31A9F971F0083C88E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8270B21A9F971F0083C88E /* CoreBluetooth.framework */; };
+		2B8270B51A9F97250083C88E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8270B41A9F97250083C88E /* MapKit.framework */; };
+		2B8270B81A9F98FD0083C88E /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8270B71A9F98FD0083C88E /* Presentation.swift */; };
+		2B8270BA1A9FDE590083C88E /* AVAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8270B91A9FDE590083C88E /* AVAudio.swift */; };
+		2B8270BC1A9FF6630083C88E /* CoreMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8270BB1A9FF6630083C88E /* CoreMotion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B82709F1A9F7CC90083C88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8270811A9F7CC90083C88E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8270881A9F7CC90083C88E;
+			remoteInfo = HackLondon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B478BEB1AA1189A0085FB01 /* CoreBluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreBluetooth.swift; sourceTree = "<group>"; };
+		2B478BED1AA123910085FB01 /* MapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKit.swift; sourceTree = "<group>"; };
+		2B478BEF1AA12A8A0085FB01 /* Accounts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
+		2B478BF11AA12AA60085FB01 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		2B478BF31AA12F6D0085FB01 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2B8270891A9F7CC90083C88E /* HackLondon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackLondon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B82708D1A9F7CC90083C88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B82708E1A9F7CC90083C88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B8270901A9F7CC90083C88E /* AVFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundation.swift; sourceTree = "<group>"; };
+		2B8270931A9F7CC90083C88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B8270951A9F7CC90083C88E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B8270981A9F7CC90083C88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2B82709E1A9F7CC90083C88E /* HackLondonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackLondonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8270A31A9F7CC90083C88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8270A41A9F7CC90083C88E /* HackLondonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackLondonTests.swift; sourceTree = "<group>"; };
+		2B8270AE1A9F91280083C88E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2B8270B01A9F917E0083C88E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		2B8270B21A9F971F0083C88E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2B8270B41A9F97250083C88E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2B8270B71A9F98FD0083C88E /* Presentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
+		2B8270B91A9FDE590083C88E /* AVAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAudio.swift; sourceTree = "<group>"; };
+		2B8270BB1A9FF6630083C88E /* CoreMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMotion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8270861A9F7CC90083C88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B478BF41AA12F6D0085FB01 /* Social.framework in Frameworks */,
+				2B478BF21AA12AA60085FB01 /* Accounts.framework in Frameworks */,
+				2B8270B51A9F97250083C88E /* MapKit.framework in Frameworks */,
+				2B8270B31A9F971F0083C88E /* CoreBluetooth.framework in Frameworks */,
+				2B8270B11A9F917E0083C88E /* CoreMotion.framework in Frameworks */,
+				2B8270AF1A9F91280083C88E /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B82709B1A9F7CC90083C88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8270801A9F7CC90083C88E = {
+			isa = PBXGroup;
+			children = (
+				2B82708B1A9F7CC90083C88E /* HackLondon */,
+				2B8270A11A9F7CC90083C88E /* HackLondonTests */,
+				2B82708A1A9F7CC90083C88E /* Products */,
+				2B8270B61A9F973B0083C88E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B82708A1A9F7CC90083C88E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8270891A9F7CC90083C88E /* HackLondon.app */,
+				2B82709E1A9F7CC90083C88E /* HackLondonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B82708B1A9F7CC90083C88E /* HackLondon */ = {
+			isa = PBXGroup;
+			children = (
+				2B8270B71A9F98FD0083C88E /* Presentation.swift */,
+				2B82708E1A9F7CC90083C88E /* AppDelegate.swift */,
+				2B8270901A9F7CC90083C88E /* AVFoundation.swift */,
+				2B8270B91A9FDE590083C88E /* AVAudio.swift */,
+				2B8270BB1A9FF6630083C88E /* CoreMotion.swift */,
+				2B478BEB1AA1189A0085FB01 /* CoreBluetooth.swift */,
+				2B478BED1AA123910085FB01 /* MapKit.swift */,
+				2B478BEF1AA12A8A0085FB01 /* Accounts.swift */,
+				2B8270921A9F7CC90083C88E /* Main.storyboard */,
+				2B8270951A9F7CC90083C88E /* Images.xcassets */,
+				2B8270971A9F7CC90083C88E /* LaunchScreen.xib */,
+				2B82708C1A9F7CC90083C88E /* Supporting Files */,
+			);
+			path = HackLondon;
+			sourceTree = "<group>";
+		};
+		2B82708C1A9F7CC90083C88E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B82708D1A9F7CC90083C88E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B8270A11A9F7CC90083C88E /* HackLondonTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B8270A41A9F7CC90083C88E /* HackLondonTests.swift */,
+				2B8270A21A9F7CC90083C88E /* Supporting Files */,
+			);
+			path = HackLondonTests;
+			sourceTree = "<group>";
+		};
+		2B8270A21A9F7CC90083C88E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8270A31A9F7CC90083C88E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B8270B61A9F973B0083C88E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B478BF31AA12F6D0085FB01 /* Social.framework */,
+				2B478BF11AA12AA60085FB01 /* Accounts.framework */,
+				2B8270B41A9F97250083C88E /* MapKit.framework */,
+				2B8270B21A9F971F0083C88E /* CoreBluetooth.framework */,
+				2B8270B01A9F917E0083C88E /* CoreMotion.framework */,
+				2B8270AE1A9F91280083C88E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8270881A9F7CC90083C88E /* HackLondon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8270A81A9F7CC90083C88E /* Build configuration list for PBXNativeTarget "HackLondon" */;
+			buildPhases = (
+				2B8270851A9F7CC90083C88E /* Sources */,
+				2B8270861A9F7CC90083C88E /* Frameworks */,
+				2B8270871A9F7CC90083C88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackLondon;
+			productName = HackLondon;
+			productReference = 2B8270891A9F7CC90083C88E /* HackLondon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B82709D1A9F7CC90083C88E /* HackLondonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8270AB1A9F7CC90083C88E /* Build configuration list for PBXNativeTarget "HackLondonTests" */;
+			buildPhases = (
+				2B82709A1A9F7CC90083C88E /* Sources */,
+				2B82709B1A9F7CC90083C88E /* Frameworks */,
+				2B82709C1A9F7CC90083C88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8270A01A9F7CC90083C88E /* PBXTargetDependency */,
+			);
+			name = HackLondonTests;
+			productName = HackLondonTests;
+			productReference = 2B82709E1A9F7CC90083C88E /* HackLondonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8270811A9F7CC90083C88E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = KCLTech;
+				TargetAttributes = {
+					2B8270881A9F7CC90083C88E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2B82709D1A9F7CC90083C88E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2B8270881A9F7CC90083C88E;
+					};
+				};
+			};
+			buildConfigurationList = 2B8270841A9F7CC90083C88E /* Build configuration list for PBXProject "HackLondon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B8270801A9F7CC90083C88E;
+			productRefGroup = 2B82708A1A9F7CC90083C88E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8270881A9F7CC90083C88E /* HackLondon */,
+				2B82709D1A9F7CC90083C88E /* HackLondonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8270871A9F7CC90083C88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8270941A9F7CC90083C88E /* Main.storyboard in Resources */,
+				2B8270991A9F7CC90083C88E /* LaunchScreen.xib in Resources */,
+				2B8270961A9F7CC90083C88E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B82709C1A9F7CC90083C88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8270851A9F7CC90083C88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8270BA1A9FDE590083C88E /* AVAudio.swift in Sources */,
+				2B478BF01AA12A8A0085FB01 /* Accounts.swift in Sources */,
+				2B478BEC1AA1189A0085FB01 /* CoreBluetooth.swift in Sources */,
+				2B478BEE1AA123910085FB01 /* MapKit.swift in Sources */,
+				2B8270911A9F7CC90083C88E /* AVFoundation.swift in Sources */,
+				2B8270BC1A9FF6630083C88E /* CoreMotion.swift in Sources */,
+				2B8270B81A9F98FD0083C88E /* Presentation.swift in Sources */,
+				2B82708F1A9F7CC90083C88E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B82709A1A9F7CC90083C88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8270A51A9F7CC90083C88E /* HackLondonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B8270A01A9F7CC90083C88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8270881A9F7CC90083C88E /* HackLondon */;
+			targetProxy = 2B82709F1A9F7CC90083C88E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B8270921A9F7CC90083C88E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8270931A9F7CC90083C88E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B8270971A9F7CC90083C88E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8270981A9F7CC90083C88E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B8270A61A9F7CC90083C88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B8270A71A9F7CC90083C88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B8270A91A9F7CC90083C88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackLondon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B8270AA1A9F7CC90083C88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackLondon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B8270AC1A9F7CC90083C88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackLondonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackLondon.app/HackLondon";
+			};
+			name = Debug;
+		};
+		2B8270AD1A9F7CC90083C88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackLondonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackLondon.app/HackLondon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8270841A9F7CC90083C88E /* Build configuration list for PBXProject "HackLondon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8270A61A9F7CC90083C88E /* Debug */,
+				2B8270A71A9F7CC90083C88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8270A81A9F7CC90083C88E /* Build configuration list for PBXNativeTarget "HackLondon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8270A91A9F7CC90083C88E /* Debug */,
+				2B8270AA1A9F7CC90083C88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8270AB1A9F7CC90083C88E /* Build configuration list for PBXNativeTarget "HackLondonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8270AC1A9F7CC90083C88E /* Debug */,
+				2B8270AD1A9F7CC90083C88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B8270811A9F7CC90083C88E /* Project object */;
+}

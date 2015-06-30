@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="customCell" rowHeight="65" id="KGk-i7-Jjw" customClass="NoteTableViewCell" customModule="session202" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My first note from this iPhone app is here and" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMW-OG-MOc">
+                        <rect key="frame" x="15" y="15" width="297" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2014.11.10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJM-QB-qz0">
+                        <rect key="frame" x="15" y="36" width="162" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="162" id="Vc0-7l-OPD"/>
+                            <constraint firstAttribute="height" constant="21" id="ZBV-wP-h2Q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" red="0.058421804840000001" green="0.1428918334" blue="0.6137128798" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fJM-QB-qz0" firstAttribute="top" secondItem="QMW-OG-MOc" secondAttribute="bottom" id="4Pv-3U-TsX"/>
+                    <constraint firstItem="QMW-OG-MOc" firstAttribute="leading" secondItem="fJM-QB-qz0" secondAttribute="leading" id="LRG-jE-ghA"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="fJM-QB-qz0" secondAttribute="bottom" constant="-1" id="TAd-Ld-ftk"/>
+                    <constraint firstItem="fJM-QB-qz0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="cRp-Fi-8T8"/>
+                    <constraint firstItem="QMW-OG-MOc" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="qBE-4z-PwZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblDate" destination="fJM-QB-qz0" id="PAO-Je-8zd"/>
+                <outlet property="lblNote" destination="QMW-OG-MOc" id="ONY-4c-6ij"/>
+            </connections>
+            <point key="canvasLocation" x="305" y="362.5"/>
+        </tableViewCell>
+    </objects>
+</document>
